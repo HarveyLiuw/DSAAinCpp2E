@@ -1,6 +1,6 @@
 #pragma once
 
-// 6.1.2 The Struct chainNode, page 196/826
+// 6.1.2 The Chinese Edition, 131/561
 
 template <typename T>
 struct chainNode
@@ -11,10 +11,12 @@ struct chainNode
 
     // methods
     chainNode() {}
+    
     chainNode(const T& element)
     {
         this->element = element;
     }
+
     chainNode(const T& element, chainNode<T>* next)
     {
         this->element = element;
